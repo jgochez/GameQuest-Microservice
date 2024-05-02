@@ -1,0 +1,202 @@
+[
+    {
+        "title": "The Legend of Zelda: Breath of the Wild",
+        "console": "Nintendo",
+        "release year": 2017,
+        "developer": "Nintendo EPD",
+        "publisher": "Nintendo",
+        "price": 59.99,
+        "rating": "10/10",
+        "game series": "The Legend of Zelda"
+    },
+    {
+        "title": "Halo Infinite",
+        "console": "Xbox",
+        "release year": 2021,
+        "developer": "343 Industries",
+        "publisher": "Xbox Game Studios",
+        "price": 59.99,
+        "rating": "9/10",
+        "game series": "Halo"
+    },
+    {
+        "title": "God of War",
+        "console": "PlayStation",
+        "release year": 2018,
+        "developer": "Santa Monica Studio",
+        "publisher": "Sony Interactive Entertainment",
+        "price": 39.99,
+        "rating": "9.5/10",
+        "game series": "God of War"
+    },
+    {
+        "title": "The Witcher 3: Wild Hunt",
+        "console": "PC",
+        "release year": 2015,
+        "developer": "CD Projekt Red",
+        "publisher": "CD Projekt",
+        "price": 29.99,
+        "rating": "10/10",
+        "game series": "The Witcher"
+    },
+    {
+        "title": "Super Mario Odyssey",
+        "console": "Nintendo",
+        "release year": 2017,
+        "developer": "Nintendo EPD",
+        "publisher": "Nintendo",
+        "price": 59.99,
+        "rating": "9.5/10",
+        "game series": "Super Mario"
+    },
+    {
+        "title": "Red Dead Redemption 2",
+        "console": "Xbox",
+        "release year": 2018,
+        "developer": "Rockstar Studios",
+        "publisher": "Rockstar Games",
+        "price": 49.99,
+        "rating": "10/10",
+        "game series": "Red Dead"
+    },
+    {
+        "title": "Persona 5",
+        "console": "PlayStation",
+        "release year": 2016,
+        "developer": "Atlus",
+        "publisher": "Atlus",
+        "price": 29.99,
+        "rating": "9/10",
+        "game series": "Persona"
+    },
+    {
+        "title": "Overwatch",
+        "console": "PC",
+        "release year": 2016,
+        "developer": "Blizzard Entertainment",
+        "publisher": "Blizzard Entertainment",
+        "price": 39.99,
+        "rating": "9/10",
+        "game series": "Overwatch"
+    },
+    {
+        "title": "Animal Crossing: New Horizons",
+        "console": "Nintendo",
+        "release year": 2020,
+        "developer": "Nintendo EPD",
+        "publisher": "Nintendo",
+        "price": 59.99,
+        "rating": "9/10",
+        "game series": "Animal Crossing"
+    },
+    {
+        "title": "Gears 5",
+        "console": "Xbox",
+        "release year": 2019,
+        "developer": "The Coalition",
+        "publisher": "Xbox Game Studios",
+        "price": 39.99,
+        "rating": "9/10",
+        "game series": "Gears of War"
+    },
+    {
+        "title": "The Last of Us Part II",
+        "console": "PlayStation",
+        "release year": 2020,
+        "developer": "Naughty Dog",
+        "publisher": "Sony Interactive Entertainment",
+        "price": 49.99,
+        "rating": "10/10",
+        "game series": "The Last of Us"
+    },
+    {
+        "title": "Half-Life: Alyx",
+        "console": "PC",
+        "release year": 2020,
+        "developer": "Valve",
+        "publisher": "Valve",
+        "price": 49.99,
+        "rating": "10/10",
+        "game series": "Half-Life"
+    },
+    {
+        "title": "Mario Kart 8 Deluxe",
+        "console": "Nintendo",
+        "release year": 2017,
+        "developer": "Nintendo EPD",
+        "publisher": "Nintendo",
+        "price": 59.99,
+        "rating": "9.5/10",
+        "game series": "Mario Kart"
+    },
+    {
+        "title": "Forza Horizon 4",
+        "console": "Xbox",
+        "release year": 2018,
+        "developer": "Playground Games",
+        "publisher": "Xbox Game Studios",
+        "price": 49.99,
+        "rating": "9/10",
+        "game series": "Forza"
+    },
+    {
+        "title": "Final Fantasy XV",
+        "console": "PlayStation",
+        "release year": 2016,
+        "developer": "Square Enix",
+        "publisher": "Square Enix",
+        "price": 39.99,
+        "rating": "8.5/10",
+        "game series": "Final Fantasy"
+    },
+    {
+        "title": "Minecraft",
+        "console": "PC",
+        "release year": 2011,
+        "developer": "Mojang Studios",
+        "publisher": "Mojang Studios",
+        "price": 26.99,
+        "rating": "9.5/10",
+        "game series": "Minecraft"
+    },
+    {
+        "title": "Super Smash Bros. Ultimate",
+        "console": "Nintendo",
+        "release year": 2018,
+        "developer": "Bandai Namco Studios",
+        "publisher": "Nintendo",
+        "price": 59.99,
+        "rating": "9.5/10",
+        "game series": "Super Smash Bros."
+    },
+    {
+        "title": "Assassin's Creed Valhalla",
+        "console": "Xbox",
+        "release year": 2020,
+        "developer": "Ubisoft Montreal",
+        "publisher": "Ubisoft",
+        "price": 59.99,
+        "rating": "8.5/10",
+        "game series": "Assassin's Creed"
+    },
+    {
+        "title": "Horizon Zero Dawn",
+        "console": "PlayStation",
+        "release year": 2017,
+        "developer": "Guerrilla Games",
+        "publisher": "Sony Interactive Entertainment",
+        "price": 19.99,
+        "rating": "9/10",
+        "game series": "Horizon"
+    },
+    {
+        "title": "The Sims 4",
+        "console": "PC",
+        "release year": 2014,
+        "developer": "Maxis",
+        "publisher": "Electronic Arts",
+        "price": 39.99,
+        "rating": "8/10",
+        "game series": "The Sims"
+    }
+]

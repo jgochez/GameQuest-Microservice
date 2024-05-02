@@ -8,13 +8,13 @@ cart_games = []
 def checkout():
     total_price = render_cart("checkout")
     print("-" * 30)
-    print(f"(Step 2) Total:     ${total_price}\n")
+    print(f"(Step 2) Total:     ${round(total_price,2)}\n")
     pay = input("(Step 3) PAY(y/n): ")
     if pay == "y":
         verify = input("Are you sure?(y/n): ")
         if verify == "y":
             print("Thank you for paying!")
-            print(f"Confirmation: Payment of ${total_price} on {datetime.now()}")
+            print(f"Confirmation: Payment of ${round(total_price,2)} on {datetime.now()}")
             time.sleep(2)
             print("\nReturning to Cart..")
 
@@ -28,29 +28,29 @@ def checkout():
             with open("games_list_saved.json", 'w') as out_file:
                 json.dump(saved_games, out_file, indent=4)
 
+            cart_games.clear()
             cart("fill")
     else:
         print("Returning to Cart...")
-        cart("fill")
+        cart("render")
 
 
 def render_cart(status):
-    empty = 0
+    empty = True
     count = 1
     total = 0
     if status == "checkout":
         # Empty cart
         for game in cart_games:
+            empty = False
             print(f"    ({count}) {game['title']} -- {game['price']}")
             count += 1
             total += float(game["price"])
 
-        cart_games.clear()
-
     elif status == "render":
         # Render cart
         for game in cart_games:
-            empty += 1
+            empty = False
             print(f"    ({count}) {game['title']} -- {game['price']}")
             count += 1
             total += float(game["price"])
@@ -60,13 +60,17 @@ def render_cart(status):
         with open("games_list_saved.json", 'r') as file:
             saved_games = json.load(file)
 
-        for game in saved_games:
-            empty += 1
-            cart_games.append(game)
-            print(f"    ({count}) {game['title']} -- {game['price']}")
+        for s_game in saved_games:
+            empty = False
+            for c_game in cart_games:
+                if s_game["title"] == c_game["title"]:
+                    cart_games.remove(s_game)
+            cart_games.append(s_game)
+            print(f"    ({count}) {s_game['title']} -- {s_game['price']}")
             count += 1
-            total += float(game["price"])
-    if empty == 0:
+            total += float(s_game["price"])
+
+    if empty:
         print("\nCart is empty.\n")
     return total
 
@@ -81,7 +85,7 @@ def remove_from_cart():
         if another == "y":
             continue
         elif another == "n":
-            break
+            return
         else:
             print("Invalid input, try again.")
 
@@ -92,7 +96,8 @@ def menu(status):
     print("-" * 52)
     print("\n(Step 1) Complete Your Cart:")
     render_cart(status)
-    print("Edit/Checkout/Exit?:" + "\n(a)Edit\n(b)Checkout\n(c)Refresh")
+    print("-" * 52)
+    print("(a)Edit\n(b)Checkout\n(c)Refresh")
     print("~" * 52 + "\n(i) BROWSE " + "(ii) SAVED " + "(iii) CART " + "(q) EXIT")
 
 

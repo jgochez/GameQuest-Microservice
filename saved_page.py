@@ -108,6 +108,7 @@ def user_input():
         res = input("*" * 50 + "\n" + "Choose Filter: ")
         if res == "a":
             normal_filter()
+            break
         elif res == "b":
             pass
         elif res == "c":

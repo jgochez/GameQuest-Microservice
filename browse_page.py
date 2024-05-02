@@ -55,6 +55,7 @@ def normal_filter():
 
         count = 1
         for game in game_list:
+            render_games.append(game)
             print(f"({count}) {game['title']} -- {game['price']}")
             count += 1
 

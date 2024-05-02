@@ -8,31 +8,35 @@ cart_games = []
 def checkout():
     total_price = render_cart("checkout")
     print("-" * 30)
-    print(f"(Step 2) Total:     ${round(total_price,2)}\n")
+    print(f"(Step 2) Total:     ${round(total_price, 2)}\n")
     pay = input("(Step 3) PAY(y/n): ")
     if pay == "y":
         verify = input("Are you sure?(y/n): ")
         if verify == "y":
             print("Thank you for paying!")
-            print(f"Confirmation: Payment of ${round(total_price,2)} on {datetime.now()}")
+            print(f"Confirmation: Payment of ${round(total_price, 2)} on {datetime.now()}")
             time.sleep(2)
             print("\nReturning to Cart..")
 
-            # Get saved games from JSON
-            with open("games_list_saved.json", 'r') as in_file:
-                saved_games = json.load(in_file)
-
-                saved_games.clear()
-
-            # Add saved games to JSON
-            with open("games_list_saved.json", 'w') as out_file:
-                json.dump(saved_games, out_file, indent=4)
-
-            cart_games.clear()
-            cart("fill")
+            empty_cart()
+            return "fill"
     else:
         print("Returning to Cart...")
-        cart("render")
+        return "render"
+
+
+def empty_cart():
+    # Get saved games from JSON
+    with open("games_list_saved.json", 'r') as in_file:
+        saved_games = json.load(in_file)
+
+        saved_games.clear()
+
+    # Add saved games to JSON
+    with open("games_list_saved.json", 'w') as out_file:
+        json.dump(saved_games, out_file, indent=4)
+
+    cart_games.clear()
 
 
 def render_cart(status):
@@ -108,7 +112,8 @@ def user_input():
             remove_from_cart()
             cart("render")
         elif res == "b":
-            checkout()
+            status = checkout()
+            cart(status)
         elif res == "c":
             cart("fill")
         elif res == "q":

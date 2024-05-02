@@ -1,6 +1,8 @@
 import time
 import json
 
+# ssh -i ~/.ssh/id_rsa -T git@github.com
+
 render_games = []
 
 

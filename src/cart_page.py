@@ -4,7 +4,7 @@ import json
 render_games = []
 
 
-def remove_from_saved():
+def remove_from_cart():
     while True:
         res = input("Unsave and Remove from Cart?(y/n): ")
         if res == "y":
@@ -88,7 +88,7 @@ def normal_filter():
 
 def menu():
     print("*" * 52 + "\n" + " " * 17 + "GAMEQUEST APP" + "\n" + "*" * 52)
-    print("-" * 38 + "SAVED GAMES---")
+    print("-" * 38 + "SAVED CART---")
     print("-" * 52)
     print("(a) Normal Filter (Default)")
     print(" |RECOMMENDED: Search with only one field required.|\n")
@@ -100,7 +100,7 @@ def menu():
     print(" |NEW!!!: Quick Search uses browsing history for   |\n"
           " |its algorithm and may be less accurate due to it.|")
     print("~" * 52)
-    print("(i) BROWSE " + "(ii) SAVED " + "(iii) CART " + "(q) EXIT")
+    print("(i) BROWSE " + "(ii) SAVED " + "(iii) CHECKOUT " + "(q) EXIT")
 
 
 def user_input():
@@ -124,7 +124,7 @@ def saved():
     while True:
         menu()
         user_input()
-        remove_from_saved()
+        remove_from_cart()
 
 
 if __name__ == "__main__":

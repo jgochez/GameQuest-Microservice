@@ -1,0 +1,613 @@
+[
+    {
+        "title": "The Legend of Zelda: Breath of the Wild",
+        "console": "Nintendo",
+        "release year": 2017,
+        "developer": "Nintendo EPD",
+        "publisher": "Nintendo",
+        "price": 59.99,
+        "rating": "10/10",
+        "game series": "The Legend of Zelda"
+    },
+    {
+        "title": "Halo Infinite",
+        "console": "Xbox",
+        "release year": 2021,
+        "developer": "343 Industries",
+        "publisher": "Xbox Game Studios",
+        "price": 59.99,
+        "rating": "9/10",
+        "game series": "Halo"
+    },
+    {
+        "title": "God of War",
+        "console": "PlayStation",
+        "release year": 2018,
+        "developer": "Santa Monica Studio",
+        "publisher": "Sony Interactive Entertainment",
+        "price": 39.99,
+        "rating": "9.5/10",
+        "game series": "God of War"
+    },
+    {
+        "title": "The Witcher 3: Wild Hunt",
+        "console": "PC",
+        "release year": 2015,
+        "developer": "CD Projekt Red",
+        "publisher": "CD Projekt",
+        "price": 29.99,
+        "rating": "10/10",
+        "game series": "The Witcher"
+    },
+    {
+        "title": "Super Mario Odyssey",
+        "console": "Nintendo",
+        "release year": 2017,
+        "developer": "Nintendo EPD",
+        "publisher": "Nintendo",
+        "price": 59.99,
+        "rating": "9.5/10",
+        "game series": "Super Mario"
+    },
+    {
+        "title": "Red Dead Redemption 2",
+        "console": "Xbox",
+        "release year": 2018,
+        "developer": "Rockstar Studios",
+        "publisher": "Rockstar Games",
+        "price": 49.99,
+        "rating": "10/10",
+        "game series": "Red Dead"
+    },
+    {
+        "title": "Persona 5",
+        "console": "PlayStation",
+        "release year": 2016,
+        "developer": "Atlus",
+        "publisher": "Atlus",
+        "price": 29.99,
+        "rating": "9/10",
+        "game series": "Persona"
+    },
+    {
+        "title": "Overwatch",
+        "console": "PC",
+        "release year": 2016,
+        "developer": "Blizzard Entertainment",
+        "publisher": "Blizzard Entertainment",
+        "price": 39.99,
+        "rating": "9/10",
+        "game series": "Overwatch"
+    },
+    {
+        "title": "Animal Crossing: New Horizons",
+        "console": "Nintendo",
+        "release year": 2020,
+        "developer": "Nintendo EPD",
+        "publisher": "Nintendo",
+        "price": 59.99,
+        "rating": "9/10",
+        "game series": "Animal Crossing"
+    },
+    {
+        "title": "Gears 5",
+        "console": "Xbox",
+        "release year": 2019,
+        "developer": "The Coalition",
+        "publisher": "Xbox Game Studios",
+        "price": 39.99,
+        "rating": "9/10",
+        "game series": "Gears of War"
+    },
+    {
+        "title": "The Last of Us Part II",
+        "console": "PlayStation",
+        "release year": 2020,
+        "developer": "Naughty Dog",
+        "publisher": "Sony Interactive Entertainment",
+        "price": 49.99,
+        "rating": "10/10",
+        "game series": "The Last of Us"
+    },
+    {
+        "title": "Half-Life: Alyx",
+        "console": "PC",
+        "release year": 2020,
+        "developer": "Valve",
+        "publisher": "Valve",
+        "price": 49.99,
+        "rating": "10/10",
+        "game series": "Half-Life"
+    },
+    {
+        "title": "Mario Kart 8 Deluxe",
+        "console": "Nintendo",
+        "release year": 2017,
+        "developer": "Nintendo EPD",
+        "publisher": "Nintendo",
+        "price": 59.99,
+        "rating": "9.5/10",
+        "game series": "Mario Kart"
+    },
+    {
+        "title": "Forza Horizon 4",
+        "console": "Xbox",
+        "release year": 2018,
+        "developer": "Playground Games",
+        "publisher": "Xbox Game Studios",
+        "price": 49.99,
+        "rating": "9/10",
+        "game series": "Forza"
+    },
+    {
+        "title": "Final Fantasy XV",
+        "console": "PlayStation",
+        "release year": 2016,
+        "developer": "Square Enix",
+        "publisher": "Square Enix",
+        "price": 39.99,
+        "rating": "8.5/10",
+        "game series": "Final Fantasy"
+    },
+    {
+        "title": "Minecraft",
+        "console": "PC",
+        "release year": 2011,
+        "developer": "Mojang Studios",
+        "publisher": "Mojang Studios",
+        "price": 26.99,
+        "rating": "9.5/10",
+        "game series": "Minecraft"
+    },
+    {
+        "title": "Super Smash Bros. Ultimate",
+        "console": "Nintendo",
+        "release year": 2018,
+        "developer": "Bandai Namco Studios",
+        "publisher": "Nintendo",
+        "price": 59.99,
+        "rating": "9.5/10",
+        "game series": "Super Smash Bros."
+    },
+    {
+        "title": "Assassin's Creed Valhalla",
+        "console": "Xbox",
+        "release year": 2020,
+        "developer": "Ubisoft Montreal",
+        "publisher": "Ubisoft",
+        "price": 59.99,
+        "rating": "8.5/10",
+        "game series": "Assassin's Creed"
+    },
+    {
+        "title": "Horizon Zero Dawn",
+        "console": "PlayStation",
+        "release year": 2017,
+        "developer": "Guerrilla Games",
+        "publisher": "Sony Interactive Entertainment",
+        "price": 19.99,
+        "rating": "9/10",
+        "game series": "Horizon"
+    },
+    {
+        "title": "The Sims 4",
+        "console": "PC",
+        "release year": 2014,
+        "developer": "Maxis",
+        "publisher": "Electronic Arts",
+        "price": 39.99,
+        "rating": "8/10",
+        "game series": "The Sims"
+    },
+    {
+        "title": "The Legend of Zelda: Ocarina of Time",
+        "console": "Nintendo",
+        "release year": 1998,
+        "developer": "Nintendo EAD",
+        "publisher": "Nintendo",
+        "price": 49.99,
+        "rating": "10/10",
+        "game series": "The Legend of Zelda"
+    },
+    {
+        "title": "Super Mario 64",
+        "console": "Nintendo",
+        "release year": 1996,
+        "developer": "Nintendo EAD",
+        "publisher": "Nintendo",
+        "price": 49.99,
+        "rating": "10/10",
+        "game series": "Super Mario"
+    },
+    {
+        "title": "Metroid Prime",
+        "console": "Nintendo",
+        "release year": 2002,
+        "developer": "Retro Studios",
+        "publisher": "Nintendo",
+        "price": 49.99,
+        "rating": "9.5/10",
+        "game series": "Metroid"
+    },
+    {
+        "title": "Pokémon Red and Blue",
+        "console": "Nintendo",
+        "release year": 1998,
+        "developer": "Game Freak",
+        "publisher": "Nintendo",
+        "price": 39.99,
+        "rating": "9/10",
+        "game series": "Pokémon"
+    },
+    {
+        "title": "Banjo-Kazooie",
+        "console": "Nintendo",
+        "release year": 1998,
+        "developer": "Rare",
+        "publisher": "Nintendo",
+        "price": 39.99,
+        "rating": "9/10",
+        "game series": "Banjo-Kazooie"
+    },
+    {
+        "title": "Super Smash Bros. Melee",
+        "console": "Nintendo",
+        "release year": 2001,
+        "developer": "HAL Laboratory",
+        "publisher": "Nintendo",
+        "price": 49.99,
+        "rating": "9.5/10",
+        "game series": "Super Smash Bros."
+    },
+    {
+        "title": "Donkey Kong Country",
+        "console": "Nintendo",
+        "release year": 1994,
+        "developer": "Rare",
+        "publisher": "Nintendo",
+        "price": 29.99,
+        "rating": "9/10",
+        "game series": "Donkey Kong"
+    },
+    {
+        "title": "GoldenEye 007",
+        "console": "Nintendo",
+        "release year": 1997,
+        "developer": "Rare",
+        "publisher": "Nintendo",
+        "price": 39.99,
+        "rating": "9/10",
+        "game series": "James Bond"
+    },
+    {
+        "title": "The Elder Scrolls V: Skyrim",
+        "console": "Xbox",
+        "release year": 2011,
+        "developer": "Bethesda Game Studios",
+        "publisher": "Bethesda Softworks",
+        "price": 29.99,
+        "rating": "9/10",
+        "game series": "The Elder Scrolls"
+    },
+    {
+        "title": "Gears of War 2",
+        "console": "Xbox",
+        "release year": 2008,
+        "developer": "Epic Games",
+        "publisher": "Microsoft Game Studios",
+        "price": 39.99,
+        "rating": "9/10",
+        "game series": "Gears of War"
+    },
+    {
+        "title": "Grand Theft Auto V",
+        "console": "Xbox",
+        "release year": 2013,
+        "developer": "Rockstar North",
+        "publisher": "Rockstar Games",
+        "price": 29.99,
+        "rating": "10/10",
+        "game series": "Grand Theft Auto"
+    },
+    {
+        "title": "Uncharted 2: Among Thieves",
+        "console": "PlayStation",
+        "release year": 2009,
+        "developer": "Naughty Dog",
+        "publisher": "Sony Computer Entertainment",
+        "price": 29.99,
+        "rating": "9.5/10",
+        "game series": "Uncharted"
+    },
+    {
+        "title": "Bloodborne",
+        "console": "PlayStation",
+        "release year": 2015,
+        "developer": "FromSoftware",
+        "publisher": "Sony Computer Entertainment",
+        "price": 39.99,
+        "rating": "9.5/10",
+        "game series": "Souls"
+    },
+    {
+        "title": "Journey",
+        "console": "PlayStation",
+        "release year": 2012,
+        "developer": "Thatgamecompany",
+        "publisher": "Sony Computer Entertainment",
+        "price": 19.99,
+        "rating": "9.5/10",
+        "game series": "N/A"
+    },
+    {
+        "title": "The Last Guardian",
+        "console": "PlayStation",
+        "release year": 2016,
+        "developer": "GenDesign",
+        "publisher": "Sony Interactive Entertainment",
+        "price": 39.99,
+        "rating": "9/10",
+        "game series": "N/A"
+    },
+    {
+        "title": "Minecraft: Xbox 360 Edition",
+        "console": "Xbox",
+        "release year": 2012,
+        "developer": "Mojang Studios",
+        "publisher": "Microsoft Studios",
+        "price": 19.99,
+        "rating": "9.5/10",
+        "game series": "Minecraft"
+    },
+    {
+        "title": "Alan Wake",
+        "console": "Xbox",
+        "release year": 2010,
+        "developer": "Remedy Entertainment",
+        "publisher": "Microsoft Game Studios",
+        "price": 19.99,
+        "rating": "9/10",
+        "game series": "Alan Wake"
+    },
+    {
+        "title": "Crackdown",
+        "console": "Xbox",
+        "release year": 2007,
+        "developer": "Realtime Worlds",
+        "publisher": "Microsoft Game Studios",
+        "price": 19.99,
+        "rating": "8/10",
+        "game series": "Crackdown"
+    },
+    {
+        "title": "Halo: Combat Evolved Anniversary",
+        "console": "Xbox",
+        "release year": 2011,
+        "developer": "343 Industries",
+        "publisher": "Microsoft Studios",
+        "price": 29.99,
+        "rating": "9/10",
+        "game series": "Halo"
+    },
+    {
+        "title": "Persona 4 Golden",
+        "console": "PC",
+        "release year": 2020,
+        "developer": "Atlus",
+        "publisher": "Atlus",
+        "price": 19.99,
+        "rating": "9.5/10",
+        "game series": "Persona"
+    },
+    {
+        "title": "Divinity: Original Sin 2",
+        "console": "PC",
+        "release year": 2017,
+        "developer": "Larian Studios",
+        "publisher": "Larian Studios",
+        "price": 39.99,
+        "rating": "9.5/10",
+        "game series": "Divinity"
+    },
+    {
+        "title": "Fallout 4",
+        "console": "PC",
+        "release year": 2015,
+        "developer": "Bethesda Game Studios",
+        "publisher": "Bethesda Softworks",
+        "price": 29.99,
+        "rating": "8.5/10",
+        "game series": "Fallout"
+    },
+    {
+        "title": "The Elder Scrolls IV: Oblivion",
+        "console": "PC",
+        "release year": 2006,
+        "developer": "Bethesda Game Studios",
+        "publisher": "2K Games",
+        "price": 19.99,
+        "rating": "9/10",
+        "game series": "The Elder Scrolls"
+    },
+    {
+        "title": "Undertale",
+        "console": "PC",
+        "release year": 2015,
+        "developer": "Toby Fox",
+        "publisher": "Toby Fox",
+        "price": 14.99,
+        "rating": "9.5/10",
+        "game series": "N/A"
+    },
+    {
+        "title": "Portal 2",
+        "console": "PC",
+        "release year": 2011,
+        "developer": "Valve",
+        "publisher": "Valve",
+        "price": 19.99,
+        "rating": "9.5/10",
+        "game series": "Portal"
+    },
+    {
+        "title": "Bioshock",
+        "console": "PC",
+        "release year": 2007,
+        "developer": "Irrational Games",
+        "publisher": "2K Games",
+        "price": 19.99,
+        "rating": "9/10",
+        "game series": "BioShock"
+    },
+    {
+        "title": "Team Fortress 2",
+        "console": "PC",
+        "release year": 2007,
+        "developer": "Valve",
+        "publisher": "Valve",
+        "price": 0,
+        "rating": "9/10",
+        "game series": "Team Fortress"
+    },
+    {
+        "title": "Cities: Skylines",
+        "console": "PC",
+        "release year": 2015,
+        "developer": "Colossal Order",
+        "publisher": "Paradox Interactive",
+        "price": 29.99,
+        "rating": "9/10",
+        "game series": "N/A"
+    },
+    {
+        "title": "Stardew Valley",
+        "console": "PC",
+        "release year": 2016,
+        "developer": "ConcernedApe",
+        "publisher": "ConcernedApe",
+        "price": 14.99,
+        "rating": "9.5/10",
+        "game series": "N/A"
+    },
+    {
+        "title": "Celeste",
+        "console": "PC",
+        "release year": 2018,
+        "developer": "Maddy Makes Games",
+        "publisher": "Maddy Makes Games",
+        "price": 19.99,
+        "rating": "9.5/10",
+        "game series": "N/A"
+    },
+    {
+        "title": "Disco Elysium",
+        "console": "PC",
+        "release year": 2019,
+        "developer": "ZA/UM",
+        "publisher": "ZA/UM",
+        "price": 39.99,
+        "rating": "9.5/10",
+        "game series": "N/A"
+    },
+    {
+        "title": "Sekiro: Shadows Die Twice",
+        "console": "PC",
+        "release year": 2019,
+        "developer": "FromSoftware",
+        "publisher": "Activision",
+        "price": 59.99,
+        "rating": "9/10",
+        "game series": "N/A"
+    },
+    {
+        "title": "Cuphead",
+        "console": "PC",
+        "release year": 2017,
+        "developer": "Studio MDHR",
+        "publisher": "Studio MDHR",
+        "price": 19.99,
+        "rating": "9/10",
+        "game series": "N/A"
+    },
+    {
+        "title": "Terraria",
+        "console": "PC",
+        "release year": 2011,
+        "developer": "Re-Logic",
+        "publisher": "Re-Logic",
+        "price": 9.99,
+        "rating": "9/10",
+        "game series": "N/A"
+    },
+    {
+        "title": "Factorio",
+        "console": "PC",
+        "release year": 2020,
+        "developer": "Wube Software",
+        "publisher": "Wube Software",
+        "price": 29.99,
+        "rating": "9/10",
+        "game series": "N/A"
+    },
+    {
+        "title": "Hollow Knight",
+        "console": "PC",
+        "release year": 2017,
+        "developer": "Team Cherry",
+        "publisher": "Team Cherry",
+        "price": 14.99,
+        "rating": "9.5/10",
+        "game series": "N/A"
+    },
+    {
+        "title": "Ori and the Blind Forest",
+        "console": "PC",
+        "release year": 2015,
+        "developer": "Moon Studios",
+        "publisher": "Microsoft Studios",
+        "price": 19.99,
+        "rating": "9/10",
+        "game series": "Ori"
+    },
+    {
+        "title": "FTL: Faster Than Light",
+        "console": "PC",
+        "release year": 2012,
+        "developer": "Subset Games",
+        "publisher": "Subset Games",
+        "price": 9.99,
+        "rating": "9/10",
+        "game series": "N/A"
+    },
+    {
+        "title": "The Binding of Isaac: Rebirth",
+        "console": "PC",
+        "release year": 2014,
+        "developer": "Nicalis",
+        "publisher": "Nicalis",
+        "price": 14.99,
+        "rating": "9/10",
+        "game series": "The Binding of Isaac"
+    },
+    {
+        "title": "Portal",
+        "console": "PC",
+        "release year": 2007,
+        "developer": "Valve",
+        "publisher": "Valve",
+        "price": 9.99,
+        "rating": "9.5/10",
+        "game series": "Portal"
+    },
+    {
+        "title": "Hotline Miami",
+        "console": "PC",
+        "release year": 2012,
+        "developer": "Dennaton Games",
+        "publisher": "Devolver Digital",
+        "price": 9.99,
+        "rating": "9/10",
+        "game series": "Hotline Miami"
+    }
+]
+

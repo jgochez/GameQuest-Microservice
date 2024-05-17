@@ -1,37 +1,44 @@
 import time
 import json
 
+# ssh -i ~/.ssh/id_rsa -T git@github.com
+
 render_games = []
 
 
-def remove_from_saved():
+def add_to_cart():
     while True:
-        res = input("Unsave the game/s?(y/n): ")
+        res = input("Save and Add to Cart?(y/n): ")
         if res == "y":
             # Get saved games from JSON
             with open("games_list_saved.json", 'r') as in_file:
                 saved_games = json.load(in_file)
 
             for game in render_games:
-                saved_games.remove(game)
-            render_games.clear()
+                saved_games.append(game)
+
+            for game in render_games:
+                render_games.remove(game)
 
             # Add saved games to JSON
             with open("games_list_saved.json", 'w') as out_file:
                 json.dump(saved_games, out_file, indent=4)
 
             break
+
         elif res == "n":
-            print("Returning to Saved Page..")
-            render_games.clear()
+            print("Returning to Browse Page..")
+            for game in render_games:
+                render_games.remove(game)
             time.sleep(2)
+
             break
         else:
             print("Invalid input, try again.")
 
 
 def normal_filter():
-    # Display message and filter
+    # Display message and prompt
     print("Filter Options..")
     print("Press <enter> to skip..")
     time.sleep(2)
@@ -40,32 +47,33 @@ def normal_filter():
     render_all = input("Render all?(y/n): ")
     print("*" * 15)
 
-    # Get saved games from JSON
-    with open("games_list_saved.json", 'r') as in_file:
-        game_list = json.load(in_file)
+    # Get games from JSON
+    with open("games_list_catalog.json", 'r') as file:
+        game_list = json.load(file)
 
     # Render entire list of games
     if render_all == "y":
-        start = time.time()
+        start_y = time.time()
 
         count = 1
         for game in game_list:
+            render_games.append(game)
             print(f"({count}) {game['title']} -- {game['price']}")
             count += 1
 
-        end = time.time()
-        print(f"\nRendered in {round(end - start, 4)} seconds.")
+        end_y = time.time()
+        print(f"\nRendered in {round(end_y - start_y, 4)} seconds.")
 
     # Render games based of filter
     elif render_all == "n":
-        start = time.time()
-
         print("*" * 15)
         console = input("Console: ")
         developer = input("Developer: ")
         game_series = input("Game Series: ")
         release_year = input("Release Year: ")
         print("*" * 15)
+
+        start_n = time.time()
 
         for game in game_list:
             if console == game["console"] and game not in render_games:
@@ -82,13 +90,13 @@ def normal_filter():
             print(f"({count}) {game['title']} -- {game['price']}")
             count += 1
 
-        end = time.time()
-        print(f"\nRendered in {round(end - start, 4)} seconds.")
+        end_n = time.time()
+        print(f"\nRendered in {round(end_n - start_n, 4)} seconds.")
 
 
 def menu():
     print("*" * 52 + "\n" + " " * 17 + "GAMEQUEST APP" + "\n" + "*" * 52)
-    print("-" * 38 + "SAVED GAMES---")
+    print("-" * 35 + "BROWSE CATALOG---")
     print("-" * 52)
     print("(a) Normal Filter (Default)")
     print(" |RECOMMENDED: Search with only one field required.|\n")
@@ -100,7 +108,7 @@ def menu():
     print(" |NEW!!!: Quick Search uses browsing history for   |\n"
           " |its algorithm and may be less accurate due to it.|")
     print("~" * 52)
-    print("(i) BROWSE " + "(ii) SAVED " + "(iii) CART " + "(q) EXIT")
+    print("(i) BROWSE " + "(ii) SAVED " + "(iii) CHECKOUT " + "(q) EXIT")
 
 
 def user_input():
@@ -120,12 +128,12 @@ def user_input():
             print("Error: Invalid input, try again.\n")
 
 
-def saved():
+def browse():
     while True:
         menu()
         user_input()
-        remove_from_saved()
+        add_to_cart()
 
 
 if __name__ == "__main__":
-    saved()
+    browse()
